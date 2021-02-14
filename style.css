@@ -45,12 +45,13 @@ body {
   left: 0;
 }
 .info-box {
-  margin-top: 15px;
+  margin-top: 70px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   z-index: 1;
+  position: relative;
 }
 input {
   background: none;
@@ -70,7 +71,7 @@ input:active {
 }
 
 .js-title {
-  font-size: 70px;
+  font-size: 100px;
   margin-bottom: 0;
 }
 .js-greeting {
@@ -79,20 +80,21 @@ input:active {
 }
 
 .js-form {
-  margin-bottom: 5px;
+  margin-bottom: 10px;
 }
 .js-form > input {
-  font-size: 14px;
+  font-size: 22px;
 }
 .js-toDoForm > input {
-  font-size: 12px;
+  font-size: 18px;
 }
 .js-weather {
   display: flex;
   justify-content: flex-end;
   padding-right: 10px;
   padding-top: 5px;
-  font-size: 12px;
+  font-size: 15px;
+  position: relative;
   z-index: 1;
 }
 ul {
@@ -106,4 +108,7 @@ image {
 button {
   background: 0;
   border: 0;
+}
+li span {
+  font-size: 23px;
 }
