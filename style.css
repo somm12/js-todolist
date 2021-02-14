@@ -1,0 +1,109 @@
+body {
+  background-color: #dfe6e9;
+  color: white;
+  background-size: cover;
+  background-position: center center;
+  margin: 0;
+  padding: 0;
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.clicked {
+  color: #74b9ff;
+}
+.form,
+.greeting {
+  display: none;
+}
+.showing {
+  display: block;
+}
+
+.bgImage {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  animation: fadeIn 0.5s linear;
+}
+.opacity-for-info-box {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background-color: black;
+  opacity: 0.1;
+  top: 0;
+  left: 0;
+}
+.info-box {
+  margin-top: 15px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+input {
+  background: none;
+  appearance: none;
+  border: 0;
+  border-bottom: 1px solid white;
+  margin: 0;
+  color: white;
+}
+input::placeholder {
+  color: white;
+}
+
+input:focus,
+input:active {
+  outline: none;
+}
+
+.js-title {
+  font-size: 70px;
+  margin-bottom: 0;
+}
+.js-greeting {
+  margin: 0;
+  font-size: 25px;
+}
+
+.js-form {
+  margin-bottom: 5px;
+}
+.js-form > input {
+  font-size: 14px;
+}
+.js-toDoForm > input {
+  font-size: 12px;
+}
+.js-weather {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 10px;
+  padding-top: 5px;
+  font-size: 12px;
+  z-index: 1;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+image {
+  opacity: 0;
+}
+button {
+  background: 0;
+  border: 0;
+}
