@@ -18,7 +18,7 @@
 <br>
 
 ## ✅ FUNCTION
- * to do list<br>
+ * to do list + CRD <br>
  * shows current time, temperature, the name of city depends on the location of your computer <br>
  * Random Background Screen Picture
 
